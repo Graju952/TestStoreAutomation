@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="55.758" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Purchasing the product on the AutomationTestStore application" name="Registring the application by providing the valid details and then purchasing the product" time="55.122">
+<system-out><![CDATA[
+Given Launch the requested browser with the url.............................passed
+When user clicks on Login or Register link..................................passed
+And user click on Continue button to fill the required details..............passed
+When user fill the required details on create account page..................passed
+And user clicks on Continue button to register..............................passed
+Then verify whether the correct user name displayed on landing page.........passed
+And user add the product to the cart........................................passed
+When user moves to the checkout page for payments...........................passed
+Then validate the product on payments page showing correctly................passed
+]]></system-out>
+</testcase>
+</testsuite>
