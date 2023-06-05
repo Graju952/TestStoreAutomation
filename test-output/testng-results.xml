@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-05T18:14:49 IST" name="Default suite" finished-at="2023-06-05T18:16:47 IST" duration-ms="117666">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@45d84a20]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-05T18:14:49 IST" name="Default test" finished-at="2023-06-05T18:16:47 IST" duration-ms="117666">
+      <class name="TestRunner.runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.runner@45d84a20]" started-at="2023-06-05T18:14:49 IST" name="setUpClass" finished-at="2023-06-05T18:14:50 IST" duration-ms="812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23e2c1ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@45d84a20]" started-at="2023-06-05T18:14:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-05T18:16:47 IST" duration-ms="116772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registring the application by providing the valid details and then purchasing the product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchasing the product on the AutomationTestStore application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.runner@45d84a20]" started-at="2023-06-05T18:16:47 IST" name="tearDownClass" finished-at="2023-06-05T18:16:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
